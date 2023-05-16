@@ -1,0 +1,41 @@
+{
+  "name": "@magno/eslint-config",
+  "version": "1.0.5",
+  "description": "An ESLint shareable config for Node, React and Next projects",
+  "homepage": "https://github.com/magnobiet/eslint-config#readme",
+  "bugs": "https://github.com/magnobiet/eslint-config/issues",
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "eslint-shareable-config"
+  ],
+  "author": "Magno Fernando Brixner Biét <magno.biet@gmail.com> (https://magnobiet.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "@next/eslint-plugin-next": "^13.4.2",
+    "@typescript-eslint/eslint-plugin": "^5.59.6",
+    "eslint": "^8.40.0",
+    "eslint-config-next": "^13.4.2",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-n": "^15.7.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-sonarjs": "^0.19.0",
+    "eslint-plugin-testing-library": "^5.11.0",
+    "eslint-plugin-unicorn": "^47.0.0",
+    "prettier": "^2.8.8"
+  },
+  "peerDependencies": {
+    "eslint": ">=8.0.0",
+    "typescript": ">=4.0.0"
+  },
+  "peerDependenciesMeta": {
+    "typescript": {
+      "optional": true
+    }
+  }
+}
